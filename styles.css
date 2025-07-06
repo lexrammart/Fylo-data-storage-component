@@ -1,0 +1,5 @@
+/* Temporary dark background until full design is ready */
+body {
+  background-color: hsl(228, 56%, 20%); /* deep navy */
+  color: #ffffff;                       /* keep text visible */
+}
