@@ -47,53 +47,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5
+- CSS custom properties (variables)
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Mobile-first approach
+- Visual layout planning using design image as background
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+During this challenge, I re-learned how to:
+- Properly structure an HTML layout using `<main>`, `<section>`, and `<div>`
+- Use Flexbox to build a responsive two-column layout
+- Align elements using `justify-content` and `align-items`
+- Apply `flex: 0 0 [value]` and understand what each number means
+- Fix common issues like invalid margin syntax (`1 rem` vs `1rem`)
+- Add background images using `background-image` and position them with `background-size` and `background-position`
+- Apply consistent styling to inline SVGs or icons inside lists
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to continue improving my understanding of:
+- Flexbox alignment and responsive behavior
+- Grid layout for more complex components
+- Media queries for mobile responsiveness
+- Organizing CSS better and making it more scalable
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [MDN Web Docs - background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+- [The Markdown Guide](https://www.markdownguide.org/)
 
 ## Author
 
