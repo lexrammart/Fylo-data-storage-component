@@ -1,5 +1,79 @@
-/* Temporary dark background until full design is ready */
-body {
-  background-color: hsl(228, 56%, 20%); /* deep navy */
-  color: #ffffff;                       /* keep text visible */
+
+:root {
+  --main-bg-color: hsl(229, 57%, 11%);  
+  --main-text-color: #ffffff;
 }
+
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  background-image: 
+    url('./images/bg-desktop.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 50vh;
+  color: var(--main-text-color);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: 420px;
+  min-height: 5vh;
+  align-items: start;
+  justify-content: center;
+  background-color: hsl(228, 56%, 26%);
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 10px 100px 10px 10px;
+  gap: 2rem;
+}
+
+.branding > img{
+  margin-left: 1rem;
+}
+
+.icons li {
+  background: var(--main-bg-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;         /* sin espacios extra */
+  display: flex;
+  align-items: center;  /* centra la imagen en su cajita */
+  justify-content: center;
+}
+
+/* 2. Tamaño fijo de la imagen */
+.icons img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;  /* evita distorsión */
+}
+
+/* 3. Lista en fila (ya lo tienes) */
+.icons {
+  display: flex;
+  list-style: none;
+}
+
+.usage {
+  flex: 1; 
+}
+
+
