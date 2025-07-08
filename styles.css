@@ -76,4 +76,9 @@ body {
   flex: 1; 
 }
 
+.progress bar {
+  height: 25px;
+  width: 80%;
+}
+
 
